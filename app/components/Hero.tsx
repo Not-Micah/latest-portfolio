@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
     className='
-    px-default
+    padding
     max-w-max w-full mx-auto
     h-[100vh]
     relative
@@ -17,7 +17,8 @@ const Hero = () => {
         max-w-[800px]
         self-end
         max-lg:self-start
-        dynamic-text'>
+        dynamic-text
+        text-right max-lg:text-left'>
             I'm an A-Level student based in Indonesia, with a passion for Computer Science! Aside from web development, I have experience in both game and mobile app development.
         </p>
         <div className="

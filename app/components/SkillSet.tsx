@@ -94,7 +94,7 @@ const SkillSet = () => {
     xl:h-[100vh] 
     grid grid-cols-2
     max-xl:grid-cols-1 max-xl:gap-y-12
-    px-default mt-64">
+    padding mt-64">
       <div className="
       w-full h-full 
       max-xl:h-[800px]

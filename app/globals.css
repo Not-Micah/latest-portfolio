@@ -25,4 +25,7 @@
     font-body
   }
 
+  .padding {
+    @apply px-default max-lg:px-tight
+  }
 }

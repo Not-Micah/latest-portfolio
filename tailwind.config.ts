@@ -19,7 +19,8 @@ export default {
         'max': '1600px',
       },
       spacing: {
-        'default': '20px'
+        'default': '48px',
+        'tight': '10px'
       }
     },
   },
