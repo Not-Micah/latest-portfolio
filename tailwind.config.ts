@@ -9,9 +9,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
       },
+      fontFamily: {
+        title: ['Poppins', 'sans-serif'],
+        body: ['Nunito', 'sans-serif'], 
+        accent: ['Rock Salt', 'cursive']
+      },
+      maxWidth: {
+        'max': '1600px',
+      },
+      spacing: {
+        'default': '20px'
+      }
     },
   },
   plugins: [],
