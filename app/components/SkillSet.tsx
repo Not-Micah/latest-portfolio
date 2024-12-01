@@ -91,6 +91,7 @@ const SkillSet = () => {
   return (
     <section className="
     max-w-max w-full mx-auto 
+    max-max:overflow-hidden
     xl:h-[100vh] 
     grid grid-cols-2
     max-xl:grid-cols-1 max-xl:gap-y-12

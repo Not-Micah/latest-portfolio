@@ -20,7 +20,7 @@ export default {
       },
       spacing: {
         'default': '48px',
-        'tight': '10px'
+        'tight': '18px'
       }
     },
   },

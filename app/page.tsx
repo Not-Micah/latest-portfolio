@@ -1,15 +1,12 @@
 import BackgroundPixels from "./components/BackgroundPixels";
 import Hero from "./components/Hero";
 import SkillSet from "./components/SkillSet";
-
-import { Parallax } from "react-scroll-parallax";
+import ProjectShowcase from "./components/ProjectShowcase";
 
 const Home = () => {
   return (
     <main className="
-    bg-[#F6EEE3] 
-    relative
-    overflow-hidden">
+    bg-[#F6EEE3] ">
       <BackgroundPixels 
         className="fixed inset-0 z-10
         w-[100vw] h-[100vh] overflow-hidden 
@@ -17,6 +14,8 @@ const Home = () => {
       />
       <Hero />
       <SkillSet />
+      <ProjectShowcase />
+      <div className="w-[100vw] h-[400px]" />
     </main>
   );
 };

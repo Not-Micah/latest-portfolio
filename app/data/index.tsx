@@ -45,3 +45,41 @@ export const skillSetData: SkillSetData[] = [
     ],
 },
 ];
+
+export const projectCards = [
+    {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
+      title: "Title 1",
+      id: 1,
+    },
+    {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
+      title: "Title 2",
+      id: 2,
+    },
+    {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
+      title: "Title 3",
+      id: 3,
+    },
+    {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
+      title: "Title 4",
+      id: 4,
+    },
+    {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
+      title: "Title 5",
+      id: 5,
+    },
+    {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
+      title: "Title 6",
+      id: 6,
+    },
+    {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
+      title: "Title 7",
+      id: 7,
+    },
+  ];
