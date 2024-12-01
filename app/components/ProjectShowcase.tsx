@@ -12,12 +12,24 @@ const Card = ({ card }: { card: any }) => {
   return (
     <div 
     key={card.id}
-    className="w-[1000px]">
+    className="
+    w-[1000px] 
+    max-xl:w-[800px] max-lg:w-[600px] max-md:w-[400px]
+    border-2 border-[#333333]
+    rounded-lg overflow-hidden">
         <GridLines cellWidth={120} strokeWidth={2}>
             <img 
             src={card.url}
             className="w-full h-auto" />
         </GridLines>
+        <p className="
+        dynamic-label text-white
+        w-full h-[125px]
+        max-xl:h-[150px] max-md:h-[200px]
+        padding py-6
+        bg-[#333333]">
+            {card.description}
+        </p>
     </div>
   );
 };
@@ -39,7 +51,9 @@ const ProjectShowcase = () => {
     max-w-max w-full mx-auto
     h-[300vh] 
     ">
-      <div className="flex flex-col gap-y-12 max-lg:gap-y-8">
+      <div className="
+      flex flex-col gap-y-12 max-lg:gap-y-8
+      padding">
         <h3 className="dynamic-subheading font-accentTwo">Some of my projects</h3>
         <p className="dynamic-text">Here's a <span className="underline">small selection</span> of my work!</p>
       </div>
