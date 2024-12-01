@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600;700;800;900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600;700;800;900&family=Rock+Salt&family=Gloria+Hallelujah&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,7 +11,7 @@
   }
 
   .dynamic-subheading {
-    @apply text-6xl max-lg:text-5xl max-md:text-4xl uppercase
+    @apply text-7xl max-lg:text-6xl max-md:text-5xl uppercase
     font-bold font-title
   }
 

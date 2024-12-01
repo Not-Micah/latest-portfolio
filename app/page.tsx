@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <main className="
     bg-[#F6EEE3] ">
-      <BackgroundPixels 
+      {/* <BackgroundPixels 
         className="fixed inset-0 z-10
         w-[100vw] h-[100vh] overflow-hidden 
         opacity-[7.5%]"
-      />
+      /> */}
       <Hero />
       <SkillSet />
       <ProjectShowcase />

@@ -8,20 +8,20 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-      },
+      colors: {},
       fontFamily: {
         title: ['Poppins', 'sans-serif'],
         body: ['Nunito', 'sans-serif'], 
-        accent: ['Rock Salt', 'cursive']
+        accentOne: ['Rock Salt'],
+        accentTwo: ['Gloria Hallelujah']
       },
       maxWidth: {
         'max': '1600px',
       },
       spacing: {
         'default': '48px',
-        'tight': '18px'
-      }
+        'tight': '18px',
+      },
     },
   },
   plugins: [],

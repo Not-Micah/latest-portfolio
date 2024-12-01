@@ -47,39 +47,28 @@ export const skillSetData: SkillSetData[] = [
 ];
 
 export const projectCards = [
-    {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
-      title: "Title 1",
-      id: 1,
-    },
-    {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
-      title: "Title 2",
-      id: 2,
-    },
-    {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
-      title: "Title 3",
-      id: 3,
-    },
-    {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
-      title: "Title 4",
-      id: 4,
-    },
-    {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
-      title: "Title 5",
-      id: 5,
-    },
-    {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
-      title: "Title 6",
-      id: 6,
-    },
-    {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1RlrbxJfEqwRJACDSVzfUmCqSdrP8QUkYA&s",
-      title: "Title 7",
-      id: 7,
-    },
-  ];
+  {
+    url: "./verbum.png",
+    title: "Verbum",
+    description: "My first web app, Verbum, lets users filter 300+ Bible verses stored in MongoDB. It also features book summaries and an AI chatbot powered by the Gemini API.",
+    id: 1,
+  },
+  {
+    url: "./versle.png",
+    title: "Versle",
+    description: "A Bible verse guessing game inspired by Wordle, Versle has attracted over 175,000 players globally.",
+    id: 2,
+  },
+  {
+    url: "./me2.png",
+    title: "Me2",
+    description: "Me2 connects students through shared interests using Firebase for chats and a custom sorting algorithm.",
+    id: 3,
+  },
+  {
+    url: "./restoring_rainbows.png",
+    title: "Restoring Rainbows",
+    description: "I built a website with a back-end admin panel for dynamic content management, including branches and executive board data.",
+    id: 4,
+  },
+];

@@ -5,29 +5,19 @@ import { useRef } from "react";
 
 import { projectCards } from "../data";
 
+// Import error!
+import GridLines from '@mezh-hq/react-gridlines';
+
 const Card = ({ card }: { card: any }) => {
   return (
-    <div
-      key={card.id}
-      className="
-      relative 
-      h-[450px] w-[450px] 
-      overflow-hidden 
-      bg-neutral-200"
-    >
-      <div
-        style={{
-          backgroundImage: `url(${card.url})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-        className="absolute inset-0 z-0"
-      ></div>
-      <div className="absolute inset-0 z-10 grid place-content-center">
-        <p className="bg-gradient-to-br from-white/20 to-white/0 p-8 text-6xl font-black uppercase text-white backdrop-blur-lg">
-          {card.title}
-        </p>
-      </div>
+    <div 
+    key={card.id}
+    className="w-[1000px]">
+        <GridLines cellWidth={120} strokeWidth={2}>
+            <img 
+            src={card.url}
+            className="w-full h-auto" />
+        </GridLines>
     </div>
   );
 };
@@ -38,19 +28,23 @@ const ProjectShowcase = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
+  const x = useTransform(scrollYProgress, [0.1, 1], ["1%", "-85%"]);
 
   return (
     <section 
     ref={targetRef} 
     className="
     relative 
-    z-20
+    z-20 my-48
     max-w-max w-full mx-auto
     h-[300vh] 
     ">
+      <div className="flex flex-col gap-y-12 max-lg:gap-y-8">
+        <h3 className="dynamic-subheading font-accentTwo">Some of my projects</h3>
+        <p className="dynamic-text">Here's a <span className="underline">small selection</span> of my work!</p>
+      </div>
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-        <motion.div style={{ x }} className="flex gap-4">
+        <motion.div style={{ x }} className="flex gap-x-16">
           {projectCards.map((card) => {
             return <Card card={card} key={card.id} />;
           })}

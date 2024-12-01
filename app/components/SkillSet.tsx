@@ -114,13 +114,13 @@ const SkillSet = () => {
         ))}
       </div>
       <div className="w-full h-full 
-      flex flex-col items-end gap-y-16
+      flex flex-col items-end gap-y-12
       max-xl:items-start max-xl:gap-y-8
       max-xl:order-1">
-        <h3 className="font-accent dynamic-subheading leading-relaxed text-right
+        <h3 className="font-accentTwo dynamic-subheading text-right
         max-xl:text-left">Some of my skills</h3>
         <p className="dynamic-text text-right max-w-[500px]
-        max-xl:text-left">Here's what I've used for most of my projects! Each window is draggable.</p>
+        max-xl:text-left">Here's what I've used for most of my projects! Each window is <span className="italic">draggable</span>.</p>
       </div>
     </section>
   );

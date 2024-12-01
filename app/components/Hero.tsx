@@ -11,7 +11,7 @@ const Hero = () => {
     flex flex-col justify-center 
     gap-y-24 max-lg:gap-y-12'>
         <h3 className='dynamic-heading'>
-            Micah Tidball,<br />Full Stack Developer
+            <span className="font-accentTwo">Micah Tidball,</span><br />Full Stack Developer
         </h3>
         <p className='
         max-w-[800px]
