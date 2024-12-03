@@ -1,4 +1,4 @@
-import React from 'react'
+import { socialLinks } from "../data"
 
 const Contacts = () => {
   return (
@@ -6,10 +6,11 @@ const Contacts = () => {
     className='
     max-w-max w-full mx-auto
     padding my-32
-    grid grid-cols-2'>
+    grid grid-cols-2 gap-x-16
+    max-[1100px]:grid-cols-1 max-[1100px]:gap-y-12'>
 
         <div className="
-        w-full
+        max-w-[600px]
         relative">
 
             <div className="
@@ -30,11 +31,47 @@ const Contacts = () => {
 
             <h3 
             className='
-            dynamic-subheading font-accentTwo
-            absolute -bottom-[35px] -left-[20px]'>
+            dynamic-subheading font-accentTwo text-nowrap
+            max-[400px]:text-3xl
+            absolute -bottom-[35px] left-1/2 transform -translate-x-1/2
+            max-[1100px]:-bottom-[20px]'>
                 Contact me!
             </h3>
 
+        </div>
+
+        <div className="
+        max-w-[600px] aspect-square
+        flex flex-col gap-y-12
+        max-[1100px]:mt-12">
+          <p className='dynamic-text'>
+            I’m always open to new opportunities, whether it’s <span className='italic'>internships, start-ups, commissions, or other projects</span>. Feel free to reach out through any of the following!
+          </p>
+          <div className="flex flex-col gap-y-3">
+            {socialLinks.map((item, index) => (
+              <a 
+              key={index}
+              href={item.link}
+              className="
+              flex justify-between items-center
+              rounded-lg px-4 py-1
+              group hover:bg-blue-700/50
+              transition-all duration-300">
+                <div className="flex justify-start items-center gap-x-4">
+                  {item.icon}
+                  <p className="dynamic-label">{item.title}</p>
+                </div>
+                {
+                  item.favorite && (
+                    <img src="/star.svg" className="
+                    w-[20px] 
+                    group-hover:w-[25px] group-hover:rotate-12
+                    transition-all duration-200" />
+                  )
+                }
+              </a>
+            ))}
+          </div>
         </div>
 
     </section>

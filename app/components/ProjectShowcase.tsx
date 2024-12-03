@@ -52,12 +52,16 @@ const ProjectShowcase = () => {
     h-[300vh] 
     ">
       <div className="
-      flex flex-col gap-y-12 max-lg:gap-y-8
+      flex flex-col gap-y-12 max-lg:gap-y-8 
       padding">
         <h3 className="dynamic-subheading font-accentTwo">Some of my projects</h3>
-        <p className="dynamic-text">Here's a <span className="underline">small selection</span> of my work!</p>
+        <p className="dynamic-text">Here's a <span className="italic">small selection</span> of my work!</p>
       </div>
-      <div className="sticky top-0 flex h-screen items-center overflow-hidden">
+      <div className="
+      sticky top-0 
+      flex items-center 
+      overflow-hidden
+      py-32 max-xl:pb-16">
         <motion.div style={{ x }} className="flex gap-x-16">
           {projectCards.map((card) => {
             return <Card card={card} key={card.id} />;
