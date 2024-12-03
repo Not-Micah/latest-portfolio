@@ -91,16 +91,37 @@ const SkillSet = () => {
   return (
     <section className="
     max-w-max w-full mx-auto 
-    max-max:overflow-hidden
+    overflow-x-hidden
+    xl:overflow-visible
     xl:h-[100vh] 
     grid grid-cols-2
     max-xl:grid-cols-1 max-xl:gap-y-12
     padding mt-64">
+
       <div className="
       w-full h-full 
       max-xl:h-[800px]
       max-xl:order-2
       relative">
+
+        <img 
+        src="/computer.svg"
+        className="
+        absolute -left-[75px] top-[10px]
+        w-[100px] -rotate-12"/>
+
+        <img 
+        src="/database.svg"
+        className="
+        absolute right-[45px] top-1/2
+        w-[100px] rotate-12"/>
+
+        <img 
+        src="/floppy_disk.svg"
+        className="
+        absolute left-[10px] bottom-[250px]
+        w-[100px] -rotate-[5deg]"/>
+
         {skillSetData.map((data, index) => (
           <Window
             key={index}
@@ -113,15 +134,18 @@ const SkillSet = () => {
           </Window>
         ))}
       </div>
+
       <div className="w-full h-full 
       flex flex-col items-end gap-y-12
       max-xl:items-start max-xl:gap-y-8
       max-xl:order-1">
         <h3 className="font-accentTwo dynamic-subheading text-right
+        pt-4
         max-xl:text-left">Some of my skills</h3>
         <p className="dynamic-text text-right max-w-[500px]
         max-xl:text-left">Here's what I've used for most of my projects! Each window is <span className="italic">draggable</span>.</p>
       </div>
+
     </section>
   );
 };
