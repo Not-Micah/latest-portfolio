@@ -143,7 +143,7 @@ const SkillSet = () => {
         pt-4
         max-xl:text-left">Some of my skills</h3>
         <p className="dynamic-text text-right max-w-[500px]
-        max-xl:text-left">Here's what I've used for most of my projects! Each window is <span className="italic">draggable</span>.</p>
+        max-xl:text-left">Here&apos;s what I&apos;ve used for most of my projects! Each window is <span className="italic">draggable</span>.</p>
       </div>
 
     </section>

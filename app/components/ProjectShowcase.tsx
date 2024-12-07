@@ -5,7 +5,7 @@ import { useRef } from "react";
 
 import { projectCards } from "../data";
 
-// Import error!
+// @ts-ignore
 import GridLines from '@mezh-hq/react-gridlines';
 
 const Card = ({ card }: { card: any }) => {
@@ -56,7 +56,7 @@ const ProjectShowcase = () => {
       flex flex-col gap-y-12 max-lg:gap-y-8 
       padding pb-16">
         <h3 className="dynamic-subheading font-accentTwo">Some of my projects</h3>
-        <p className="dynamic-text">Here's a <span className="italic">small selection</span> of my work!</p>
+        <p className="dynamic-text">Here&apos;s a <span className="italic">small selection</span> of my work!</p>
       </div>
       <div className="
       z-20 

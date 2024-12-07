@@ -19,7 +19,7 @@ const Hero = () => {
         max-lg:self-start
         dynamic-text
         text-right max-lg:text-left'>
-            I'm an A-Level student based in Indonesia, with a passion for Computer Science! Aside from web development, I have experience in both game and mobile app development.
+            I&apos;m an A-Level student based in Indonesia, with a passion for Computer Science! Aside from web development, I have experience in both game and mobile app development.
         </p>
         <div className="
         absolute left-1/2 bottom-[10px] transform -translate-x-1/2

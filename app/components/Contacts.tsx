@@ -49,7 +49,7 @@ const Contacts = () => {
         flex flex-col gap-y-12
         max-[1100px]:mt-12">
           <p className='dynamic-text'>
-            I’m always open to new opportunities, whether it’s <span className='italic'>internships, start-ups, commissions, or other projects</span>. Feel free to reach out through any of the following!
+            I&apos;m always open to new opportunities, whether it&apos;s <span className='italic'>internships, start-ups, commissions, or other projects</span>. Feel free to reach out through any of the following!
           </p>
           <div className="flex flex-col gap-y-3">
             {socialLinks.map((item, index) => (

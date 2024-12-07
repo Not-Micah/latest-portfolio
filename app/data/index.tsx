@@ -83,13 +83,12 @@ import { FaLinkedin, FaGithub, FaDiscord, FaInstagram, } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 
 export const socialLinks = [
-  {icon: <FaLinkedin size={27.5} />, title: "LinkedIn", link: "", favorite: true},
-  {icon: <BiLogoGmail size={27.5} />, title: "Email", link: "", favorite: true},
-  {icon: <FaGithub size={27.5} />, title: "GitHub", link: "", favorite: false},
-  {icon: <FaDiscord size={27.5} />, title: "Discord", link: "", favorite: true},
-  {icon: <FaInstagram size={27.5} />, title: "Instagram", link: "", favorite: false},
+  {icon: <FaLinkedin size={27.5} />, title: "LinkedIn", link: "https://www.linkedin.com/in/micah-tidball-a1b28231b/", favorite: true},
+  {icon: <BiLogoGmail size={27.5} />, title: "Email", link: "mailto:micahtid@gmail.com", favorite: true},
+  {icon: <FaGithub size={27.5} />, title: "GitHub", link: "https://github.com/Not-Micah", favorite: false},
+  {icon: <FaDiscord size={27.5} />, title: "Discord", link: "https://discord.gg/RsX9EYacmM", favorite: true},
+  {icon: <FaInstagram size={27.5} />, title: "Instagram", link: "https://www.instagram.com/micahtid/", favorite: false},
 ]
-
 
 export const sortedResume = [
   {
