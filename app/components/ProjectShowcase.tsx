@@ -11,11 +11,12 @@ import GridLines from '@mezh-hq/react-gridlines';
 const Card = ({ card }: { card: any }) => {
   return (
     <div 
+    id="project-showcase"
     key={card.id}
     className="
     w-[1000px] 
     max-xl:w-[800px] max-lg:w-[600px] max-md:w-[400px]
-    border-2 border-[#333333]
+    border-2 border-[#333333]/80
     rounded-lg overflow-hidden">
         <GridLines cellWidth={120} strokeWidth={2}>
             <img 
@@ -27,7 +28,7 @@ const Card = ({ card }: { card: any }) => {
         w-full h-[125px]
         max-xl:h-[150px] max-md:h-[200px]
         padding py-6
-        bg-[#333333]">
+        bg-[#333333]/80">
             {card.description}
         </p>
     </div>

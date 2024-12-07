@@ -1,3 +1,9 @@
+export const navBarLinks = [
+  {label: "Project Showcase", link: "./#project-showcase"},
+  {label: "Contact", link: "./#contact"},
+  {label: "Resume", link: "/resume"}
+]
+
 export interface SkillSetData {
     header: string;
     startX: number;

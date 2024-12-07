@@ -3,6 +3,7 @@ import { socialLinks } from "../data"
 const Contacts = () => {
   return (
     <section
+    id="contact"
     className='
     z-20
     max-w-max w-full mx-auto
