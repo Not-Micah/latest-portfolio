@@ -8,7 +8,15 @@ import { projectCards } from "../data";
 // @ts-expect-error The package does not provide proper TypeScript declarations
 import GridLines from '@mezh-hq/react-gridlines';
 
-const Card = ({ card }: { card: any }) => {
+interface CardProps {
+  id: number;
+  title: string;
+  description: string;
+  url: string;
+}
+
+
+const Card = ({ card }: { card: CardProps }) => {
   return (
     <div 
     id="project-showcase"
