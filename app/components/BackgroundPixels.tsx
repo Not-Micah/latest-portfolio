@@ -40,7 +40,7 @@ const BackgroundPixels: React.FC<BackgroundPixelsProps> = ({ className }) => {
             key={`${row}-${col}`}
             className="
             w-[50px] h-[50px]
-            opacity-5 hover:brightness-[5000%]"
+            opacity-[5%]"
             style={{ backgroundColor: randomShade }}
           />
         );

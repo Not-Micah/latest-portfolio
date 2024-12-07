@@ -14,6 +14,7 @@ const NavBar = () => {
       max-w-max w-full
       bg-black/20 rounded-xl
       flex justify-between items-center
+      backdrop-blur-sm
       padding py-4'>
         <a href="./">
           <img src="/logo.png" className="w-[25px] aspect-square"/>

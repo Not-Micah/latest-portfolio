@@ -90,79 +90,113 @@ export const socialLinks = [
   {icon: <FaInstagram size={27.5} />, title: "Instagram", link: "", favorite: false},
 ]
 
-export const resumeItems = [
+
+export const sortedResume = [
   {
-    title: "The Impossible Platformer",
-    description: "Created a platformer game inspired by Mario using Pygame. Levels are generated from data in Excel sheets using Openpyxl. Published on Itch.io.",
-    date: "August 2022 - November 2022",
-    link: ""
+    title: "Personal Apps",
+    projects: [
+      {
+        title: "Verbum",
+        description: "Created a Bible verse filtering tool with over 300 verses stored in MongoDB. Users can filter by author or book, view book summaries, and use an AI chatbot powered by the Gemini API.",
+        date: "September 2023 - October 2023",
+        url: "https://verbum-beta.vercel.app/",
+        github: "https://github.com/Not-Micah/verbum"
+      },
+      {
+        title: "Versle",
+        description: "Developed a Wordle-inspired web app for guessing Bible verses. Used MongoDB for storing daily verses and implemented local storage for tracking user stats.",
+        date: "October 2023",
+        url: "https://versle.vercel.app/play",
+        github: "https://github.com/Not-Micah/versle"
+      },
+      {
+        title: "Micahfy",
+        description: "Built a Spotify-inspired music app with features like adding songs, creating playlists, and playback controls. Included user account management using Supabase.",
+        date: "December 2023",
+        url: "",
+        github: "https://github.com/Not-Micah/spotify-clone"
+      },
+      {
+        title: "Me2",
+        description: "Created a student chat app that matches users based on shared interests. Features include private chats, global chatrooms, and study groups. Managed data with Firebase.",
+        date: "June 2024 - Current",
+        url: "https://me2-register.vercel.app/",
+        github: "https://github.com/Not-Micah/Me2"
+      },
+      {
+        title: "Micah Builds",
+        description: "The fourth iteration of my portfolio, built with React, TailwindCSS, and Next.js. A minimalist design showcasing my work and skills.",
+        date: "December 2024",
+        url: "",
+        github: "https://github.com/Not-Micah/latest-portfolio"
+      }
+    ]
   },
   {
-    title: "The Simple Work Series",
-    description: "Published four mobile apps on the Play Store: a to-do list, pomodoro timer, habit tracker, and daily quote generator (discontinued). The apps were built using Python, Kivy/KivyMD, and packaged with Buildozer, achieving over 750 downloads.",
-    date: "January 2023 - August 2023",
-    link: ""
+    title: "Professional Apps",
+    projects: [
+      {
+        title: "Restoring Rainbows",
+        description: "Developed a website for the Hearts for Hope non-profit. Added an admin panel to update Firebase backend data and front-end sections like executive members, blogs, and branches.",
+        date: "August 2024 - October 2024",
+        url: "https://www.restoringrainbows.org/",
+        github: "https://github.com/Not-Micah/restoring-rainbows"
+      },
+      {
+        title: "Hearts for Hope",
+        description: "Developed a website for the Hearts for Hope non-profit. Added an admin panel to update Firebase backend data and front-end sections like statistics and posts.",
+        date: "August 2024 - October 2024",
+        url: "https://hhearts4hope.vercel.app/",
+        github: "https://github.com/Not-Micah/hhearts4hope"
+      },
+    ]
   },
   {
-    title: "Python Face Recognition Software",
-    description: "Built a face recognition tool with a Kivy interface. Improved the performance of an existing face recognition library.",
-    date: "February 2023",
-    link: ""
+    title: "Scripts",
+    projects: [
+      {
+        title: "Python Face Recognition Script",
+        description: "Built a face recognition tool with a Kivy interface. Improved the performance of an existing face recognition library.",
+        date: "February 2023",
+        url: "",
+        github: "https://github.com/Not-Micah/py-face-recognition"
+      },
+      {
+        title: "Mars Rover Script",
+        description: "Developed a C++ script to remotely control a Mars Rover, including its movement, six-DOF robotic arm, and two-DOF robotic claw.",
+        date: "October 2024",
+        url: "",
+        github: ""
+      }
+    ]
   },
   {
-    title: "Verbum",
-    description: "Created a Bible verse filtering tool with over 300 verses stored in MongoDB. Users can filter by author or book, view book summaries, and use an AI chatbot powered by the Gemini API.",
-    date: "September 2023 - October 2023",
-    link: ""
-  },
-  {
-    title: "Versle",
-    description: "Developed a Wordle-inspired web app for guessing Bible verses. Used MongoDB for storing daily verses and implemented local storage for tracking user stats.",
-    date: "October 2023",
-    link: ""
-  },
-  {
-    title: "Micahfy",
-    description: "Built a Spotify-inspired music app with features like adding songs, creating playlists, and playback controls. Included user account management using Supabase.",
-    date: "December 2023",
-    link: ""
-  },
-  {
-    title: "Me2",
-    description: "Created a student chat app that matches users based on shared interests. Features include private chats, global chatrooms, and study groups. Managed data with Firebase.",
-    date: "June 2024 - Current",
-    link: ""
-  },
-  {
-    title: "Micah Bird",
-    description: "Built a Flappy Bird clone using Java and the Graphics library as a final project for the 2024 Raikes Summer Program.",
-    date: "August 2024",
-    link: ""
-  },
-  {
-    title: "Restoring Rainbows",
-    description: "Developed a website for the Hearts for Hope non-profit. Added an admin panel to update Firebase backend data and front-end sections like executive members, blogs, and branches.",
-    date: "August 2024 - October 2024",
-    link: ""
-  },
-  {
-    title: "Hearts for Hope",
-    description: "Developed a website for the Hearts for Hope non-profit. Added an admin panel to update Firebase backend data and front-end sections like statistics and posts.",
-    date: "August 2024 - October 2024",
-    link: ""
-  },
-  {
-    title: "Mars Rover Script",
-    description: "Developed a C++ script to remotely control a Mars Rover, including its movement, six-DOF robotic arm, and two-DOF robotic claw.",
-    date: "October 2024",
-    link: ""
-  },
-  {
-    title: "Micah Build",
-    description: "The fourth iteration of my portfolio, built with React, TailwindCSS, and Next.js. A minimalist design showcasing my work and skills.",
-    date: "December 2024",
-    link: ""
-  },
+    title: "Games & Others",
+    projects: [
+      {
+        title: "The Impossible Platformer",
+        description: "Created a platformer game inspired by Mario using Pygame. Levels are generated from data in Excel sheets using Openpyxl. Published on Itch.io.",
+        date: "August 2022 - November 2022",
+        url: "https://notmicah.itch.io/the-impossible-platformer",
+        github: "https://github.com/Not-Micah/platformer"
+      },
+      {
+        title: "The Simple Work Series",
+        description: "Published four mobile apps on the Play Store: a to-do list, pomodoro timer, habit tracker, and daily quote generator (discontinued). The apps were built using Python, Kivy/KivyMD, and packaged with Buildozer, achieving over 750 downloads.",
+        date: "January 2023 - August 2023",
+        url: "https://play.google.com/store/apps/developer?id=Coder27&hl=en",
+        github: ""
+      },
+      {
+        title: "Micah Bird",
+        description: "Built a Flappy Bird clone using Java and the Graphics library as a final project for the 2024 Raikes Summer Program.",
+        date: "August 2024",
+        url: "https://drive.google.com/file/d/1ZMYd_0RLmwQZFd4AQv71bPHDsaOYxLjP/view",
+        github: ""
+      }
+    ]
+  }
 ];
+
 
 
