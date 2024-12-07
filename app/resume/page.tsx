@@ -22,7 +22,7 @@ const Resume = () => {
           max-w-max w-full mx-auto
           padding my-40"
       >
-        <h3 className="dynamic-subheading">Micah Tidball's Resume</h3>
+        <h3 className="dynamic-subheading">Micah Tidball&apos;s Resume</h3>
         <p className="dynamic-text font-accentTwo mt-4">
           IGCSE: 9A*s, AS Level: 3As, 2x Highest Mark in Indonesia
         </p>

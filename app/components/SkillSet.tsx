@@ -1,7 +1,6 @@
 "use client";
 
 import { twMerge } from "tailwind-merge";
-import { IoCloseOutline } from "react-icons/io5";
 import { useState, useRef } from "react";
 
 interface WindowProps {
