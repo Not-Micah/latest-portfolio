@@ -5,7 +5,7 @@ import { useRef } from "react";
 
 import { projectCards } from "../data";
 
-// @ts-expect-error
+// @ts-expect-error The package does not provide proper TypeScript declarations
 import GridLines from '@mezh-hq/react-gridlines';
 
 const Card = ({ card }: { card: any }) => {
