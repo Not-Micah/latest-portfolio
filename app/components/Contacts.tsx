@@ -4,12 +4,14 @@ const Contacts = () => {
   return (
     <section
     className='
+    z-20
     max-w-max w-full mx-auto
     padding my-32
     grid grid-cols-2 gap-x-16
     max-[1100px]:grid-cols-1 max-[1100px]:gap-y-12'>
 
         <div className="
+        z-20
         max-w-[600px]
         relative">
 
@@ -41,6 +43,7 @@ const Contacts = () => {
         </div>
 
         <div className="
+        z-20
         max-w-[600px] aspect-square
         flex flex-col gap-y-12
         max-[1100px]:mt-12">
@@ -55,8 +58,7 @@ const Contacts = () => {
               className="
               flex justify-between items-center
               rounded-lg px-4 py-1
-              group hover:bg-blue-700/50
-              transition-all duration-300">
+              group hover:bg-white/50">
                 <div className="flex justify-start items-center gap-x-4">
                   {item.icon}
                   <p className="dynamic-label">{item.title}</p>
@@ -65,7 +67,7 @@ const Contacts = () => {
                   item.favorite && (
                     <img src="/star.svg" className="
                     w-[20px] 
-                    group-hover:w-[25px] group-hover:rotate-12
+                    group-hover:w-[25px] group-hover:rotate-12 
                     transition-all duration-200" />
                   )
                 }

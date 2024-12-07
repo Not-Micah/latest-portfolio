@@ -40,28 +40,30 @@ const ProjectShowcase = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0.1, 1], ["1%", "-85%"]);
+  const x = useTransform(scrollYProgress, [0.2, 1], ["1%", "-85%"]);
 
   return (
     <section 
     ref={targetRef} 
     className="
     relative 
-    z-20 my-48
+    mt-48 mb-60
     max-w-max w-full mx-auto
     h-[300vh] 
     ">
       <div className="
       flex flex-col gap-y-12 max-lg:gap-y-8 
-      padding">
+      padding pb-16">
         <h3 className="dynamic-subheading font-accentTwo">Some of my projects</h3>
         <p className="dynamic-text">Here's a <span className="italic">small selection</span> of my work!</p>
       </div>
       <div className="
+      z-20 
       sticky top-0 
       flex items-center 
       overflow-hidden
-      py-32 max-xl:pb-16">
+      pt-4
+      max-xl:pb-16">
         <motion.div style={{ x }} className="flex gap-x-16">
           {projectCards.map((card) => {
             return <Card card={card} key={card.id} />;

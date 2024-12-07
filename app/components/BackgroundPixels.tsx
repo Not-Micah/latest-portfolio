@@ -40,7 +40,7 @@ const BackgroundPixels: React.FC<BackgroundPixelsProps> = ({ className }) => {
             key={`${row}-${col}`}
             className="
             w-[50px] h-[50px]
-            hover:brightness-[1000%]"
+            opacity-5 hover:brightness-[5000%]"
             style={{ backgroundColor: randomShade }}
           />
         );
@@ -61,10 +61,10 @@ const BackgroundPixels: React.FC<BackgroundPixelsProps> = ({ className }) => {
 
   return (
     <div
-      className={twMerge("grid", className)}
+      className={twMerge("grid relative", className)}
       style={{
         gridTemplateColumns: `repeat(${boxCount.cols}, 50px)`,
-        gridTemplateRows: `repeat(${boxCount.rows}, 50px)`,
+        gridTemplateRows: `repeat(${boxCount.rows}, 50px)`
       }}
     >
       {generateBoxes()}
