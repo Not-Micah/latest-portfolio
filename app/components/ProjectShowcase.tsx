@@ -5,7 +5,7 @@ import { useRef } from "react";
 
 import { projectCards } from "../data";
 
-// @ts-ignore
+// @ts-expect-error
 import GridLines from '@mezh-hq/react-gridlines';
 
 const Card = ({ card }: { card: any }) => {
